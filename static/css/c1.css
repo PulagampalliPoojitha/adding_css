@@ -1,0 +1,36 @@
+img
+{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    border:2px dotted red;
+}
+body
+{
+    background-color:black;
+}
+h1
+{  background:radial-gradient(circle,yellow,red,pink,blue,orange,black,white,brown);
+   animation: nvn 2s 1s infinite forwards linear;
+   color:ghostwhite;
+   text-align: center;
+   border-radius: 45px;
+   
+}
+@keyframes nvn {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    25%{
+        filter: hue-rotate(90deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    75%{
+        filter: hue-rotate(270deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
